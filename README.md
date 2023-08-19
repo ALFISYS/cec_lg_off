@@ -22,9 +22,9 @@ All process of building this device from AliExpress modules is described in ["ma
 
 #### *Do I need to connect the device to the HDMI cable break?*
 
-No. You need to connect it to any free HDMI port on your TV. Control commands are sent over HDMI CEC line (Pin13 on HDMI cable). This line is electrically connected together through all HDMI devicec that connected together. This means when some device talks using CEC to other device, everyone hear them.
+No. You need to connect it to any free HDMI port on your TV. Control commands are sent over HDMI CEC line (Pin13 on HDMI cable). This line is electrically connected together through all HDMI devices that connected together. This means when some device talks using CEC to other device, everyone hear them.
 
-#### *Can I connect USB cable to power bank?*
+#### *Can I connect USB cable to power adapter or power bank?*
 
 No. You need to connect it to any free USB port on your TV. When device detects STANDBY command sent to TV on CEC line, it sends equal command (power off) through USB-SERIAL adapter. Also device powers from it. 
 
